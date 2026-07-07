@@ -1,0 +1,40 @@
+{
+  "identifier" : "BridgefeeConfig",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "bridgetoll_group",
+      "localizations" : [],
+      "name" : "Bridgefee Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "$1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "bridgetoll_pro_monthly_internal",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Monthly toll totals and E-ZPass vs cash comparison",
+              "displayName" : "Bridgefee Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "bridgetoll_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Bridgefee Pro Monthly",
+          "subscriptionGroupID" : "bridgetoll_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
